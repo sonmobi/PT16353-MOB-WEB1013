@@ -1,0 +1,15 @@
+h1{ 
+    color: #098406;
+    text-align: center;
+    border: 2px dotted blue;
+    padding: 10px;
+    text-transform: uppercase;
+    background: yellow;
+
+}
+h2{color: blue; font-style: italic;
+    border: 1px solid red;
+    padding: 10px; text-align: center;
+    width: 200px; font-size: 50px;
+    margin: auto;
+}
