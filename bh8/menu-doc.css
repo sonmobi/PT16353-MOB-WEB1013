@@ -1,11 +1,21 @@
 #v-menu{
-    width: 200px;
+    width: 200px; /* menu ngang thì bỏ widt hoặc tăng kích thước lên */
+    
     background-color: yellow;
 }
 #v-menu ul{
     list-style: none;
     padding: 0px;
 }
+
+/* chuyển thành menu ngang thì thêm đoạn này*/
+#v-menu ul li{
+    /* display: inline-block */
+    /* float: left; */
+}
+ 
+/*====== ==============*/
+
 #v-menu ul li a{
     display: block;
     padding: 10px;
