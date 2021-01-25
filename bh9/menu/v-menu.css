@@ -1,0 +1,24 @@
+#v-menu{
+    width: 200px; background: cyan;
+}
+#v-menu ul{
+    padding: 0px; list-style: none;
+}
+#v-menu ul li{
+    width: 200px; position: relative;
+}
+#v-menu ul li a{
+    padding: 5px; border: 1px solid red;
+    display: block; background: yellowgreen;
+    text-decoration: none; color: blue;
+}
+#v-menu ul li ul{
+    position: absolute; left: 100%; top: 0px;
+    display: none;
+}
+#v-menu ul li a:hover{
+    background: yellow;
+}
+#v-menu ul li:hover > ul{
+    display: block;
+}
