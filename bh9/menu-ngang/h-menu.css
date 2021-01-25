@@ -1,0 +1,50 @@
+#h-menu{
+    width: 100%; /*Chuyển ngang*/
+    background: cyan;
+    padding: 5px;
+}
+#h-menu ul{
+    padding: 0px; list-style: none;
+}
+#h-menu>ul{
+    width: 1000px;/*Chuyển ngang*/
+    margin: auto;/*Chuyển ngang*/
+}
+#h-menu ul li{
+    width: 200px; position: relative;
+}
+#h-menu>ul>li{
+    display: inline-block; /*Chuyển ngang*/
+}
+
+#h-menu ul li a{
+    padding: 5px; 
+    /* border: 1px solid red; */
+    display: block; 
+    text-decoration: none; color: blue;
+    /* background-image: url("ic_arr.png");
+    background-repeat: no-repeat; 
+    background-color: yellowgreen; */
+    padding-left: 20px; 
+    text-align: center;
+    background-position-y: 6px; background-size: 15px;
+}
+#h-menu ul li ul{
+    position: absolute; 
+    /* left: 0px; top: 0px; */ /*Chuyển ngang bỏ left, top*/
+    display: none;
+}
+#h-menu ul li a:hover{
+    background-color: yellow;
+    border-bottom: 1px solid red;
+}
+#h-menu ul li:hover > ul{
+    display: block;
+}
+/*bỏ biểu tượng ở menu con đi*/
+#h-menu>ul>li>ul li a{
+    background-image: none;
+    padding-left: 5px;
+    text-align: left;
+    background-color: yellowgreen;
+}
