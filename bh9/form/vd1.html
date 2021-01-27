@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{ text-align: center;}
+        form{ width: 400px; display: block; margin: auto;
+        padding: 20px; border: 1px solid red;
+        border-radius: 10px; box-shadow: 0px 0px 15px red;}
+        label{ display: block; font-weight: bold;}
+        input.form-text{
+            display: block; width: 100%; padding: 5px;
+            border-radius: 5px; border: 1px solid rgb(126, 98, 98);
+            margin-bottom: 10px;
+        } 
+        button{ padding: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>Đăng nhập</h2>
+    <form action="" method="post">
+        <label for="">Username</label>
+        <input class="form-text" type="text" name="username" id="">
+        <label for="">Password</label>
+        <input  class="form-text" type="password" name="password" id="">
+        <label> <input type="checkbox" name="" id=""> Remember password?   </label>
+        <label> <input type="checkbox" name="" id=""> Remember password?   </label>
+        <label> <input type="checkbox" name="" id=""> Remember password?   </label>
+        <label> <input type="checkbox" name="" id=""> Remember password?   </label>
+        <label >
+            <input type="radio" name="gioitinh1" id="" value="0"> Nam
+        </label>
+        <label >
+            <input type="radio" name="gioitinh2" id="" value="1"> Nữ
+        </label>
+
+        <label>Ghi chú</label>
+        <textarea name="ghichu" rows="5" cols="50"></textarea>
+
+        <select name="monhoc"  >
+            <option value="web1013">Xây dựng trang web</option>
+            <option value="web2013">Xây dựng trang web 2</option>
+        </select>
+        <select name="monhoc" multiple >
+            <option value="web1013">Xây dựng trang web</option>
+            <option value="web2013">Xây dựng trang web 2</option>
+        </select>
+
+
+
+        <br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
