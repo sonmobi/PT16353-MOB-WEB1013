@@ -22,7 +22,7 @@
     <h2>Đăng nhập</h2>
     <form action="" method="post">
         <label for="">Username</label>
-        <input class="form-text" type="text" name="username" id="">
+        <input tabindex="1" class="form-text" type="text" name="username" id="">
         <label for="">Password</label>
         <input  class="form-text" type="password" name="password" id="">
         <label> <input type="checkbox" name="" id=""> Remember password?   </label>
@@ -37,9 +37,9 @@
         </label>
 
         <label>Ghi chú</label>
-        <textarea name="ghichu" rows="5" cols="50"></textarea>
+        <textarea disabled  placeholder="Nhập ghi chú" name="ghichu" rows="5" cols="50"></textarea>
 
-        <select name="monhoc"  >
+        <select name="monhoc"  tabindex="2" >
             <option value="web1013">Xây dựng trang web</option>
             <option value="web2013">Xây dựng trang web 2</option>
         </select>
@@ -48,7 +48,7 @@
             <option value="web2013">Xây dựng trang web 2</option>
         </select>
 
-
+        <input type="email" placeholder="Nhập email" required>
 
         <br>
         <button type="submit">Login</button>
